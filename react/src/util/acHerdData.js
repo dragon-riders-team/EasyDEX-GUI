@@ -128,5 +128,43 @@ export const acHerdData = {
     ac_reward: 25600000000,
     ac_halving: 77777,
     ac_private: 1,
-  }
+  },
+  NINJA: {
+		ac_supply: 100000000,
+		addnode: '192.241.134.19',
+  },
+  KV: {
+		ac_supply: 1000000,
+  },
+  BNTN: {
+		ac_supply: 500000000,
+		addnode: '94.130.169.205',
+  },
+  BTCH: {
+		ac_supply: 20998641,
+  },
+  MSHARK: {
+		ac_supply: 1400000,
+  },
+  DEX: {
+		ac_supply: 999999,
+  },
+  MGW: {
+		ac_supply: 999999,
+  },
+  BET: {
+		ac_supply: 999999,
+  },
+  CRYPTO: {
+		ac_supply: 999999,
+  },
+  BOTS: {
+		ac_supply: 999999,
+  },
+  HODL: {
+		ac_supply: 9999999,
+  },
+  WLC: {
+		ac_supply: 210000000,
+	},
 };
