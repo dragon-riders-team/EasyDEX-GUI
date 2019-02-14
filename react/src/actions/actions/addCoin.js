@@ -160,10 +160,10 @@ export const shepherdHerd = (coin, mode, path, startupParams, genproclimit) => {
     ],
   };
 
-  if (!acConfig[coin] ||
-      (acConfig[coin] && !acConfig[coin].addnode)) {
-    herdData['ac_options'].push('-addnode=78.47.196.146');
-  }
+  //if (!acConfig[coin] ||
+  //    (acConfig[coin] && !acConfig[coin].addnode)) {
+  //  herdData['ac_options'].push('-addnode=78.47.196.146');
+  //}
 
   if (coin === 'ZEC') {
     herdData = {

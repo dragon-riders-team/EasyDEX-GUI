@@ -1099,6 +1099,7 @@ export const LANG_EN = {
     'VRSC': 'Verus',
     'PIRATE': 'Pirate',
     'CCL': 'CoinCollect',
+    'LUMBER': 'Lumber',
     'KMDICE': "KMDICE",
     'MGNX': 'MagnaX',
     'DION': 'DionPay',

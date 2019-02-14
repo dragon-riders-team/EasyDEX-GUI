@@ -2,6 +2,7 @@ import translate from '../../translate/translate';
 import mainWindow from '../../util/mainWindow';
 import config from '../../config';
 import { kmdAssetChains } from 'agama-wallet-lib/src/coin-helpers';
+import { acHerdData } from '../../util/acHerdData';
 
 const addCoinOptionsAC = () => {
   const _assetChains = kmdAssetChains;
@@ -13,7 +14,8 @@ const addCoinOptionsAC = () => {
                           _assetChains[i] !== 'CCL' && _assetChains[i] !== 'MGNX' && 
                           _assetChains[i] !== 'DION' && _assetChains[i] !== 'PTX' && 
                           _assetChains[i] !== 'KMDICE' && _assetChains[i] !== 'ZEX' && 
-                          _assetChains[i] !== 'CEAL' ? 'spv|native' : 'native';
+                          _assetChains[i] !== 'CEAL' &&  _assetChains[i] !== 'LUMBER'
+                          ? 'spv|native' : 'native';
 
     if (mainWindow.arch !== 'x64') {
       availableModes = 'spv';

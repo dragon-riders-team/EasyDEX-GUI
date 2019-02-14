@@ -221,5 +221,15 @@ export const acConfig = {
 			'142.93.136.89',
 			'195.201.22.89',
 		],
+  },
+  LUMBER: {
+		'ac_algo': 'verushash',
+		'ac_veruspos': 80,
+		'ac_cc': 2,
+		'ac_supply': 1260000,
+		'ac_reward': 470000000,
+		'ac_halving': 2100000,
+		'addnode': '149.202.84.141',
+		'genproclimit': true,
 	},
 };

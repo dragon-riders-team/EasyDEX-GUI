@@ -243,6 +243,10 @@ export const getCoinTitle = (coin) => {
       coinlogo = 'CCL';
       coinname = 'CoinCollect';
     break;
+    case 'LUMBER':
+      coinlogo = 'LUMBER';
+      coinname = 'Lumber';
+    break;
     case 'DION':
       coinlogo = 'DION';
       coinname = 'DionPay';
